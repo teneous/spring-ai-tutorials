@@ -81,7 +81,7 @@ weather.api.key=your-openweather-api-key
 1. 确保使用支持Function Calling功能的AI模型（如GPT-4o）
 2. 服务端必须先于客户端启动
 3. 检查API密钥配置是否正确
-4. 确保网络环境能够访问OpenAI和OpenWeather API
+4. <mark>确保网络环境能够访问OpenAI和OpenWeather API</mark>
 
 ## 常见问题
 

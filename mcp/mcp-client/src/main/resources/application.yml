@@ -9,6 +9,7 @@ spring:
       chat:
         options:
           model: "gpt-4o"
+          temperature: 0.2
     mcp:
       client:
         sse:
@@ -20,7 +21,4 @@ spring:
 
   application:
     name: mcp-client
-    open-weather-map:
-      base-url: "https://api.openweathermap.org"
-      api-key: "your api key"
 
