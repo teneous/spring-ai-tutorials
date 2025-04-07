@@ -19,8 +19,8 @@ public class TestToolTutorial {
     @Test
     public void testSimpleTool() {
         OpenAiApi openAiApi = OpenAiApi.builder()
-                .baseUrl("https://api.xi-ai.cn")
-                .apiKey("sk-gQTqDaCmxJblzKe830AaAdEf59C849Ae9cA0A2C68aC95c24")
+                .baseUrl("")
+                .apiKey("")
                 .build();
         ChatModel chatModel = OpenAiChatModel.builder().openAiApi(openAiApi)
                 .defaultOptions(OpenAiChatOptions.builder().model("gpt-4o-mini").temperature(0.2d).build()).build();
@@ -36,8 +36,8 @@ public class TestToolTutorial {
     @Test
     public void testMultiTool() {
         OpenAiApi openAiApi = OpenAiApi.builder()
-                .baseUrl("https://api.xi-ai.cn")
-                .apiKey("sk-gQTqDaCmxJblzKe830AaAdEf59C849Ae9cA0A2C68aC95c24")
+                .baseUrl("")
+                .apiKey("")
                 .build();
         ChatModel chatModel = OpenAiChatModel.builder().openAiApi(openAiApi)
                 .defaultOptions(OpenAiChatOptions.builder().model("gpt-4o-mini").temperature(0.2d).build()).build();

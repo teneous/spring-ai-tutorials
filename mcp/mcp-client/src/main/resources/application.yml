@@ -1,0 +1,26 @@
+spring:
+  main:
+    web-application-type: none
+    banner-mode: off
+  ai:
+    openai:
+      api-key: "your api key"
+      base-url: "your base url"
+      chat:
+        options:
+          model: "gpt-4o"
+    mcp:
+      client:
+        sse:
+          connections:
+            weather-server:
+              url: http://localhost:8080
+        toolcallback:
+          enabled: true
+
+  application:
+    name: mcp-client
+    open-weather-map:
+      base-url: "https://api.openweathermap.org"
+      api-key: "your api key"
+

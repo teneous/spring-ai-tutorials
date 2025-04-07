@@ -1,0 +1,15 @@
+spring:
+  main:
+    web-application-type: servlet
+    banner-mode: off
+    allow-bean-definition-overriding: true
+  ai:
+    mcp:
+      server:
+        name: weather-server
+        version: 1.0.0
+        type: SYNC
+        sse-message-endpoint: /mcp/messages
+
+server:
+  port: 8080
