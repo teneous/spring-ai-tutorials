@@ -1,0 +1,26 @@
+spring:
+  main:
+    # 此处为reactive
+    web-application-type: reactive
+    banner-mode: off
+    allow-bean-definition-overriding: true
+  ai:
+    mcp:
+      server:
+        name: mcp-device-server
+        version: 1.0.0
+# Actuator配置
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+      base-path: /actuator
+  endpoint:
+    health:
+      show-details: always
+    metrics:
+      enabled: true
+
+server:
+  port: 8082

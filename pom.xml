@@ -12,10 +12,12 @@
 
     <modules>
         <module>startup</module>
-        <module>mcp/mcp-weather-mvc-server</module>
-        <module>mcp/mcp-weather-webflux-server</module>
         <module>mcp/mcp-weather-mvc-client</module>
+        <module>mcp/mcp-weather-mvc-server</module>
         <module>mcp/mcp-weather-webflux-client</module>
+        <module>mcp/mcp-weather-webflux-server</module>
+        <module>mcp/mcp-advance-features-client</module>
+        <module>mcp/mcp-advance-features-server</module>
     </modules>
 
     <properties>
