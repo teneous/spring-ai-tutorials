@@ -1,0 +1,20 @@
+spring:
+  main:
+    web-application-type: servlet
+    banner-mode: off
+    allow-bean-definition-overriding: true
+  ai:
+    mcp:
+      server:
+        name: mvc-weather-server
+        version: 1.0.0
+        type: SYNC
+        sse-message-endpoint: /mcp/messages
+
+server:
+  port: 8080
+
+weather:
+  api:
+    key: your-api-key-here
+    base-url: https://api.openweathermap.org
